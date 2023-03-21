@@ -1,8 +1,7 @@
 #include <math.h>
 #include <stdio.h>
 
-double
-f(double x, double y)
+double f(double x, double y)
 {
     return exp(-sin(x)) - y * cos(x);
 }
