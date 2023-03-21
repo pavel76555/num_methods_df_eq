@@ -14,8 +14,7 @@ double f(double x) {
     return 0;
 }
 
-double
-find_a(double x_0, double h, int i)
+double find_a(double x_0, double h, int i)
 {
     return (h * h * q(x_0 + h * i) - h * p(x_0 + h * i) + 1);
 }
