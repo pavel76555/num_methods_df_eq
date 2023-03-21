@@ -386,7 +386,7 @@ int main(int argc, char const *argv[])
         printf("\n");
         free(ans);
 
-        printf("Решение системы мод. методом Гаусса:\n");
+        printf("Решение системы мод. методом Гаусса: \n");
 
         ans = modified_gauss(matrix, vector, n);
 
