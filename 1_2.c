@@ -3,7 +3,6 @@
 #include <math.h>
 
 #define EPS 1e-9
-
 enum { STR_SIZE = 256 };
 
 double **create_matrix(int n)
